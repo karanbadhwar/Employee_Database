@@ -1,0 +1,16 @@
+body{
+    background-color: antiquewhite;
+    background: linear-gradient(antiquewhite grey);
+}
+h2{
+    margin-left: .25em;
+}
+
+
+
+/*--------------------------
+MEDIA QUERY
+--------------------------*/
+@media screen and (min-width: 768px) {
+    
+}
