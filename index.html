@@ -4,19 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&family=Nanum+Gothic:wght@400;700;800&family=Roboto:ital,wght@0,400;0,700;1,100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link href="css/style.css" rel="stylesheet">
     <title>Employee Database</title>
 </head>
 <body>
-    <h2>AWESOME STARTUP EMPLOYEE DIRECTORY</h2>
+    <header>
+        <h2>AWESOME STARTUP EMPLOYEE DIRECTORY</h2>
+        <form action="#" method="get">
+            <input type="text" placeholder="Type Name..." name="search" id="search">
+            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+    </header>
+<main>
    <section class="container">
        <article class="employee-data">
-        
+            <div class="deactivate empty">
+                <h1>Aww Snap...!!</h1>
+                <h3>No Data Matched!!</h3>
+            </div>
+            <div class="list">
+
+            </div>
        </article>
    </section>
-    
-
+</main>
+<div class="overlay">
+    <span class="cross deactivate">&times;</span>
+    <span class="smaller deactivate">&#60;</span>
+    <span class="greater deactivate">&#62;</span>
+</div>
+<script src="https://kit.fontawesome.com/ea5d009f26.js" crossorigin="anonymous"></script>
    <script src="js/script.js"></script> 
 </body>
 </html>
