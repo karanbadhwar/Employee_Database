@@ -214,10 +214,9 @@ function search(e){
             }
             if(count === 12){
                 list.classList.add('deactivate');
-
                 empty.classList.remove('deactivate');
             }else{
-                list.className = 'list'
+                list.className = 'list';
                 empty.classList.add('deactivate');
             }
             if (overlay.children.length === 4){
@@ -225,7 +224,7 @@ function search(e){
                 cross.classList.add('deactivate');
                 greater.classList.add('deactivate');
                 smaller.classList.add('deactivate');
-                main.style.display.opacity = '1';
+                main.style.opacity = '1';
             }
         }
     }
