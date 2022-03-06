@@ -220,6 +220,13 @@ function search(e){
                 list.className = 'list'
                 empty.classList.add('deactivate');
             }
+            if (overlay.children.length === 4){
+                overlay.lastChild.remove();
+                cross.classList.add('deactivate');
+                greater.classList.add('deactivate');
+                smaller.classList.add('deactivate');
+                main.style.display.opacity = '1';
+            }
         }
     }
 }
